@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+	<script>
+		function result(){
+			document.writeln("Bingo!");
+		}
+		var rand=Math.floor((Math.random()*10)+1);
+			var firstInput=window.prompt("Guess the integer!");
+			var firstNum=parseInt(firstInput);
+		if(firstNum!=rand){
+			while(firstNum!=rand){
+				firstNum=window.prompt("You're wrong! Guess again!");
+			}
+		}
+		else if (firstNum=rand) {}{
+			result();
+		}
+	</script>
+</body>
+</html>
